@@ -1,0 +1,55 @@
+# Development files
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Logs and temporary files
+deployment-*.log
+*.tmp
+*.temp
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation source files
+docs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output
+
+# ESLint cache
+.eslintcache
+
+# Backup files
+stores.json.backup
+stores-backup.json
+
+# Example stores with real data (keep the example file)
+stores.json
+!stores.example.json

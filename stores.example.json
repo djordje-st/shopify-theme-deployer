@@ -1,0 +1,16 @@
+{
+  "stores": [
+    {
+      "url": "your-production-store.myshopify.com",
+      "theme_id": "123456789012"
+    },
+    {
+      "url": "your-staging-store.myshopify.com",
+      "theme_id": "234567890123"
+    },
+    {
+      "url": "your-dev-store.myshopify.com",
+      "theme_id": "345678901234"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "shopify-theme-deployer",
+  "version": "1.0.0",
+  "description": "A Node.js CLI tool that deploys Shopify theme code to multiple stores simultaneously using the Shopify CLI",
+  "main": "deploy-themes.js",
+  "bin": {
+    "shopify-deploy": "./deploy-themes.js",
+    "deploy-themes": "./deploy-themes.js"
+  },
+  "scripts": {
+    "deploy": "node deploy-themes.js",
+    "deploy:list": "node deploy-themes.js --list",
+    "deploy:help": "node deploy-themes.js --help",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run deploy:help"
+  },
+  "keywords": [
+    "shopify",
+    "theme",
+    "deployment",
+    "cli",
+    "automation",
+    "multi-store",
+    "shopify-cli",
+    "ecommerce",
+    "development",
+    "devops"
+  ],
+  "author": {
+    "name": "Djordje Stevanovic",
+    "email": "djordje42@gmail.com",
+    "url": "https://github.com/djordje-st"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djordje-st/shopify-theme-deployer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djordje-st/shopify-theme-deployer/issues"
+  },
+  "homepage": "https://github.com/djordje-st/shopify-theme-deployer#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "deploy-themes.js",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "stores.example.json"
+  ],
+  "preferGlobal": true
+}
