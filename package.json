@@ -51,9 +51,9 @@
   "files": [
     "deploy-themes.js",
     "src/",
+    "assets/",
     "README.md",
-    "LICENSE",
-    "stores.example.json"
+    "LICENSE"
   ],
   "preferGlobal": true
 }

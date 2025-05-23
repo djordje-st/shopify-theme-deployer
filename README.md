@@ -1,5 +1,7 @@
 # Shopify Theme Multi-Store Deployer
 
+![Shopify Theme Multi-Store Deployer](assets/banner.png)
+
 A Node.js CLI tool that deploys Shopify theme code to multiple stores simultaneously using the Shopify CLI.
 
 [![npm version](https://badge.fury.io/js/shopify-theme-deployer.svg)](https://badge.fury.io/js/shopify-theme-deployer)

@@ -52,4 +52,4 @@ stores-backup.json
 
 # Example stores with real data (keep the example file)
 stores.json
-!stores.example.json
+!assets/stores.example.json
